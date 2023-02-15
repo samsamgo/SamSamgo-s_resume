@@ -23,16 +23,32 @@ function App() {
 
             <namedesdiv>
               <namediv>Github</namediv>
-              <descriptiondiv> github.com/samsamgo</descriptiondiv>
+              <descriptiondiv>
+                <a
+                  href="https://github.com/samsamgo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github.com/samsamgo
+                </a>
+              </descriptiondiv>
               <namediv>Blog</namediv>
-              <descriptiondiv> samsamgoo.tistory.com</descriptiondiv>
+              <descriptiondiv>
+                <a
+                  href="https://samsamgoo.tistory.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  samsamgoo.tistory.com
+                </a>
+              </descriptiondiv>
             </namedesdiv>
           </Intorducediv>
         </contentdiv>
         <hr />
-        <titlediv>INTRODUCE</titlediv>
+        <titlediv>INTRODUCTION</titlediv>
         <secondtitlediv>
-          똥인지 된장인지 '한번은' 찍어보는 개발자
+          똥인지 된장인지 '한 번은' 찍어보는 개발자
         </secondtitlediv>
         <contentdiv>
           편견에 사로잡혀 섣불리 판단하지 않습니다.
@@ -201,15 +217,6 @@ function App() {
               >
                 기획서
               </a>
-              |
-              <a
-                href="https://samsamgoo.tistory.com/167"
-                title="프로젝트 회고 블로깅"
-                target="_blank"
-                rel="noreferrer"
-              >
-                회고
-              </a>
               )
             </ccontentdiv>
             <cseconttitlediv>What did I Do</cseconttitlediv>
@@ -232,7 +239,7 @@ function App() {
           </cdiv>
         </contenttitlediv>
         <contenttitlediv>
-          <trdiv>2022.12.15 ~ 2023.1.2</trdiv>
+          <trdiv>2022.12.15 ~ 2023.01.02</trdiv>
           <cdiv>
             <csectitlediv>Stack overflow</csectitlediv>
             <cseconttitlediv>Description</cseconttitlediv>
@@ -264,15 +271,6 @@ function App() {
                 rel="noreferrer"
               >
                 기획서
-              </a>
-              |
-              <a
-                href="https://samsamgoo.tistory.com/151"
-                title="프리 프로젝트 회고 블로깅"
-                target="_blank"
-                rel="noreferrer"
-              >
-                회고
               </a>
               )
             </ccontentdiv>
@@ -324,34 +322,33 @@ const Appdiv = styled.div`
   align-items: center;
   hellodiv {
     font-weight: bolder;
-    font-size: 8rem;
+    font-size: 6rem;
     stdiv {
-      font-size: 8rem;
+      font-size: 6rem;
       font-weight: lighter;
       color: #ff9a9e;
     }
   }
   titlediv {
     width: 400px;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     text-align: LEFT;
-    margin: 5% 40% 2% 0px;
+    margin: 5% 40% 5% 0px;
   }
   secondtitlediv {
     width: 80%;
-    padding: 15px 7%;
+    padding: 2% 5%;
     background-color: #ff9a9e;
     color: white;
     border-radius: 15px;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: bolder;
   }
   contenttitlediv {
     width: 75%;
     display: flex;
     flex-direction: row;
-
     font-weight: bolder;
     margin: 5% 0% 5% 0px;
     a {
@@ -359,18 +356,18 @@ const Appdiv = styled.div`
       color: gray;
     }
     trdiv {
-      width: 20%;
+      width: 30%;
       color: gray;
       text-align: right;
       margin: 0% 10% 0% 0px;
-      font-size: 2.5rem;
+      font-size: 1.5rem;
     }
     tldiv {
       width: 20%;
       color: gray;
       text-align: left;
       margin: 0% 10% 0% 0px;
-      font-size: 2.5rem;
+      font-size: 1.5rem;
     }
     cdiv {
       width: 70%;
@@ -380,24 +377,22 @@ const Appdiv = styled.div`
         font-size: 2.5rem;
       }
       csectitlediv {
-        font-size: 3rem;
-        margin-bottom: 5%;
+        font-size: 1.5rem;
       }
       cseconttitlediv {
-        font-size: 2rem;
-        margin-top: 5%;
+        font-size: 1.3rem;
+        margin-top: 3%;
       }
       ccontentdiv {
-        font-size: 1.6rem;
-        margin-top: 2%;
-      }
-      ul {
-        display: flex;
-        flex-direction: row;
-        margin: 0% 0% 5% 0%;
-        li {
-          margin: 0% 5%;
-          font-size: 1.8rem;
+        margin-top: 1%;
+        font-size: 0.8rem;
+        ul {
+          display: flex;
+          flex-direction: row;
+          margin: 3% 0% 3% 0%;
+          li {
+            list-style-position: inside;
+          }
         }
       }
     }
@@ -406,11 +401,12 @@ const Appdiv = styled.div`
     width: 75%;
     display: flex;
     flex-direction: column;
-    margin: 3% 0% 5% 0px;
-    font-size: 1.8rem;
+    margin: 2% 0% 5% 0px;
+    font-size: 1.2rem;
     font-weight: 600;
   }
   hr {
+    margin: 5% 0px;
     width: 80%;
     height: 3px;
     background-color: pink;
@@ -434,22 +430,12 @@ const Intorducediv = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  imgdiv {
-    margin: 3% 3% 3% 3%;
-    img {
-      border: 6px solid #ff9a9e;
-      top: 6%;
-      left: 6%;
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-    }
-  }
+  margin: 5% 0% 5% 0%;
   introdiv {
     width: 60%;
-    font-size: 2rem;
+    font-size: 1rem;
     stdiv {
-      font-size: 2.5rem;
+      font-size: 1.5rem;
     }
   }
   namedesdiv {
@@ -458,12 +444,15 @@ const Intorducediv = styled.div`
     margin-left: auto;
   }
   namediv {
-    font-size: 2rem;
-    margin: 6% 0px 0px 4%;
-    font-family: "Gowun Batang", serif;
+    font-size: 1.3rem;
+    color: #ff9a9e;
   }
   descriptiondiv {
-    font-size: 1.5rem;
+    font-size: 0.7rem;
+    a {
+      color: gray;
+      text-decoration: none;
+    }
   }
 `;
 
@@ -478,16 +467,16 @@ const GlobalStyle = createGlobalStyle`
    font-size:10px;
     }
     @media screen and (min-width: 601px) and (max-width: 1126px) {
-    font-size:12px;
+    font-size:10px;
     }
     @media screen and (min-width: 1126px)and (max-width: 1526px) {
-      font-size: 14px;
+      font-size: 19px;
     }
     @media screen and (min-width: 1527px)and (max-width: 2189px) {
-      font-size: 16px;
+      font-size: 27px;
     }
     @media screen and (min-width: 2190px) {
-      font-size: 20px;
+      font-size: 35px;
     }
     }
 `;

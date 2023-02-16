@@ -15,9 +15,10 @@ function App() {
         <contentdiv>
           <Intorducediv>
             <introdiv>
-              개발자의 성공 여부는 <stdiv>비즈니스의</stdiv> 미래 가치에 의해
-              결정된다고 믿는 주니어 프론트엔드 개발자 <stdiv>장경욱</stdiv>
-              입니다.
+              성공적인 결과물을 만들기 위해서는 <stdiv>비즈니스의</stdiv> 미래
+              가치를 고려해야 합니다. 고객의 요구사항을 충족시키기 위해 받은
+              피드백을 모두 기록하는 것은 주니어 개발자인 저,
+              <stdiv>장경욱</stdiv>의 습관입니다.
             </introdiv>
 
             <namedesdiv>
@@ -54,25 +55,35 @@ function App() {
           <br />
           '원래 그렇게 한다'라는 말은 통하지 않습니다.
           <br />
-          React를 왜? 사용하는지와 같은 기초적인 부분도 객관적이고 타당한 근거가
-          나올 때까지 조사하여 정리하여 블로그에 남긴 후 이해하기 위해
-          노력합니다.
+          기초적인 부분도 객관적이고 타당한 근거가 나올 때까지 조사하여 정리하여
+          블로그에 남긴 후 이해하기 위해 노력합니다.
           <br />
           <br />
-          블로그의 글을 완성하기까지 길게는 한 달까지도 걸렸지만 정리한 후 처음
-          보는 문제가 발생해도 정리한 내용을 찾아 쉽게 해결할 수 있었습니다.
+          실제로 Redux에 관한{" "}
+          <a
+            href="https://samsamgoo.tistory.com/98"
+            target="_blank"
+            rel="noreferrer"
+          >
+            글
+          </a>
+          을 완성하기까지 이주일 정도에 시간이 걸렸습니다.
+          <br />
+          이제는 Redux를 사용하여 애플리케이션의 상태를 효과적으로 관리할 수
+          있으며, 이를 통해 코드 유지 보수성과 확장성을 향상시킬 수 있습니다.
         </contentdiv>
         <secondtitlediv>모르는 것은 알 때까지 묻는 개발자.</secondtitlediv>
         <contentdiv>
-          내가 모른다는 것에 부끄러움을 느끼지 않습니다.
+          모른다는 것에 부끄러움을 느끼지 않습니다.
           <br />
           모든 새로운 것은 '질문'에서 시작됩니다.
           <br />
-          나보다 선배이든 후배이든 모르는 것이 확실하게 전달되어 내 머릿속에
-          정리될 때까지 질문하고 이해한 내용을 확인하기 위해 재차 질문합니다.
+          선배이든 후배이든 모르는 것이 확실하게 전달되어 내 머릿속에 정리될
+          때까지 질문하고 이해한 내용을 확인하기 위해 재차 질문합니다.
           <br />
           <br />
-          다양한 질문을 통해 소통하는 것이 익숙하고 피드백 받는 것을 좋아합니다.
+          비대면 플랫폼을 통한 소통도 저에게 익숙하고, 필요에 따라 블로그
+          댓글에도 많이 참여하여 피드백을 주고 받는 것을 좋아합니다.
         </contentdiv>
         <secondtitlediv>
           서로 협력하는 작은 팀이 세상을 바꿀 수 있다는 것을 믿어 의심치 않는
@@ -107,15 +118,13 @@ function App() {
                   공부했던 내용과, 그날 하루를 회고하는 블로그를 꾸준히 작성하고
                   있습니다.
                   <ul>
-                    <li>
-                      <a
-                        href="https://samsamgoo.tistory.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        samsamgoo.tistory.com
-                      </a>
-                    </li>
+                    <a
+                      href="https://samsamgoo.tistory.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      samsamgoo.tistory.com
+                    </a>
                   </ul>
                 </li>
               </ul>
@@ -129,7 +138,7 @@ function App() {
           <tldiv>Front-end</tldiv>
           <cdiv>
             <ul>
-              <li>javascript , HTML , CSS</li>
+              <li>Javascript, Html5, CSS3</li>
             </ul>
             <ul>
               <li>React</li>
@@ -138,7 +147,7 @@ function App() {
               <li>Redux</li>
             </ul>
             <ul>
-              <li>Webpack</li>
+              <li>Axios</li>
             </ul>
           </cdiv>
         </contenttitlediv>
@@ -146,14 +155,13 @@ function App() {
           <tldiv>Back-end</tldiv>
           <cdiv>
             <ul>
-              <li>GraphQL , Json-server </li>
+              <li>GraphQL, JSON_Server</li>
             </ul>
-            <ul>
-              <li>Express.js</li>
-            </ul>
-            <ul>
-              <li>Node.js</li>
-            </ul>
+            {/* <ul>
+              <li>
+                <img src="https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=Express&logoColor=white" />
+              </li>
+            </ul> */}
             <ul>
               <li>AWS</li>
             </ul>
@@ -163,16 +171,16 @@ function App() {
           <tldiv>Etc</tldiv>
           <cdiv>
             <ul>
-              <li>Ubuntu, VS Code</li>
+              <li>Visual Studio Code</li>
             </ul>
             <ul>
-              <li>Git / Github / GitHub Desktop</li>
+              <li>GitHub</li>
             </ul>
             <ul>
-              <li>Postman , Figma</li>
+              <li>Postman, Figma</li>
             </ul>
             <ul>
-              <li>Ruby , C++ , Python , ES6</li>
+              <li>C++, Python</li>
             </ul>
           </cdiv>
         </contenttitlediv>
@@ -180,14 +188,95 @@ function App() {
         <hr />
         <titlediv>PROJECT</titlediv>
         <contenttitlediv>
+          <trdiv>2023.2.13 ~ </trdiv>
+          <cdiv>
+            <csectitlediv>Samsamgo's Profile</csectitlediv>
+            <cseconttitlediv>Description</cseconttitlediv>
+            <ccontentdiv>
+              이력서 내용을 바탕으로 만드는 Profile(제작중....)
+            </ccontentdiv>
+
+            <ccontentdiv>
+              🔗(
+              <a
+                href="https://samsamgo.netlify.app/"
+                title="Profile 배포 링크"
+                target="_blank"
+                rel="noreferrer"
+              >
+                배포링크
+              </a>
+              |
+              <a
+                href="https://github.com/samsamgo/Profile"
+                title="Profile 레파지토리"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repository
+              </a>
+              )
+            </ccontentdiv>
+            <cseconttitlediv>What did I Do</cseconttitlediv>
+            <ccontentdiv>
+              <ul>
+                <li>
+                  랜덤 함수를 이용하여 일정한 시간 간격으로 배경 이미지가
+                  변경되도록 구현하였습니다.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  유튜브에서 영상을 가져와 로딩했을 때, 해당 영상에 대한 음악이
+                  바로 재생되도록 구현하였습니다.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  UI를 반응형으로 개편하였습니다. 이를 통해 다양한 기기와 화면
+                  크기에서도 웹사이트를 보다 쉽고 효율적으로 사용할 수 있게
+                  되었습니다.
+                </li>
+              </ul>
+            </ccontentdiv>
+            <cseconttitlediv>Tech Stack</cseconttitlediv>
+            <ccontentdiv>
+              <img
+                src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"
+                alt="d"
+              />
+              <img
+                src="https://img.shields.io/badge/React Router-CA4245C?style=for-the-badge&logo=React Router&logoColor=black"
+                alt="d"
+              />
+              <br />
+              <img
+                src="https://img.shields.io/badge/CSS3 Animation-blue?style=for-the-badge&logo=CSS3&logoColor=black"
+                alt="d"
+              />
+              <img
+                src="https://img.shields.io/badge/styled components-DB7093?style=for-the-badge&logo=styled-components&logoColor=black"
+                alt="d"
+              />
+              <br />
+
+              <img
+                src="https://img.shields.io/badge/YouTube Data Api-FF0000?style=for-the-badge&logo=YouTube&logoColor=black"
+                alt="d"
+              />
+            </ccontentdiv>
+          </cdiv>
+        </contenttitlediv>
+        <contenttitlediv>
           <trdiv>2023.1.3 ~ 2023.1.31</trdiv>
           <cdiv>
             <csectitlediv>아모나(AMOONA)</csectitlediv>
             <cseconttitlediv>Description</cseconttitlediv>
             <ccontentdiv>
               주변의 사람들과 함께 운동할 수 있는 웹으로 위치를 기반으로 근처의
-              모임 장소를 지도로 나타낼 수 있는 웹(개선 필요)
+              모임 장소를 지도로 나타낼 수 있는 웹
             </ccontentdiv>
+
             <ccontentdiv>
               🔗(
               <a
@@ -216,24 +305,82 @@ function App() {
               >
                 기획서
               </a>
+              |
+              <a
+                href="https://samsamgoo.tistory.com/167"
+                title="프로젝트 회고 블로깅"
+                target="_blank"
+                rel="noreferrer"
+              >
+                후기
+              </a>
               )
             </ccontentdiv>
             <cseconttitlediv>What did I Do</cseconttitlediv>
             <ccontentdiv>
-              <li>
-                UseEffect Hook을 사용하여 Scroll position값에 따라 animation
-                효과 추가
-              </li>
-              <li>
-                카카오 map API와 redux-toolkit 주솟값을 저장하여 출력하는 기능
-                추가
-              </li>
-              <li>promise객체 Axios로 받아와 arr.map()을 사용하여 UI구성</li>
-              <li>메인/게시글등록/게시글조회 페이지 UI 제작 및 개편</li>
+              <ul>
+                <li>
+                  useEffect Hook을 사용하여 스크롤 위치 값을 감지하고, 이를
+                  기반으로 애니메이션을 추가했습니다. 이를 통해 페이지의 특정
+                  요소를 부드럽게 움직이거나 변형시키는 효과를 줄 수 있었습니다.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  Redux Toolkit을 이용하여 카카오 맵 API에서 반환한 좌표 값을
+                  저장하고 출력하는 기능을 추가했습니다. 이를 통해 지도에서 특정
+                  위치를 선택하고 해당 위치의 좌표를 저장하여 나중에 다시 참조할
+                  수 있게 되었습니다.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  Axios를 이용하여 Promise 객체를 받아온 후, 해당 객체로 map()
+                  메서드를 사용하여 UI를 구성하였습니다. 이를 통해 비동기적으로
+                  데이터를 가져와 화면을 동적으로 출력할 수 있게 되었습니다.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  메인 페이지와 게시글 등록 페이지, 게시글 조회 페이지의 UI를
+                  제작하고 개편했습니다. 이를 통해 사용자가 편리하게 컨텐츠를
+                  검색하고 작성할 수 있도록 UI를 개선하였습니다.
+                </li>
+              </ul>
             </ccontentdiv>
             <cseconttitlediv>Tech Stack</cseconttitlediv>
             <ccontentdiv>
-              React, Redux, Kakao map api, React-router, Axios, CSS animation
+              <img
+                src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"
+                alt="d"
+              />
+              <img
+                src="https://img.shields.io/badge/React Router-CA4245C?style=for-the-badge&logo=React Router&logoColor=black"
+                alt="d"
+              />
+              <img
+                src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=black"
+                alt="d"
+              />
+              <br />
+              <img
+                src="https://img.shields.io/badge/CSS3 Animation-blue?style=for-the-badge&logo=CSS3&logoColor=black"
+                alt="d"
+              />
+              <img
+                src="https://img.shields.io/badge/styled components-DB7093?style=for-the-badge&logo=styled-components&logoColor=black"
+                alt="d"
+              />
+              <br />
+              <img
+                src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=black"
+                alt="d"
+              />
+
+              <img
+                src="https://img.shields.io/badge/Kakao Map Api-FFCD00?style=for-the-badge&logo=Kakao&logoColor=black"
+                alt="d"
+              />
             </ccontentdiv>
           </cdiv>
         </contenttitlediv>
@@ -271,16 +418,61 @@ function App() {
               >
                 기획서
               </a>
+              |
+              <a
+                href="https://samsamgoo.tistory.com/151"
+                title="프리 프로젝트 회고 블로깅"
+                target="_blank"
+                rel="noreferrer"
+              >
+                후기
+              </a>
               )
             </ccontentdiv>
             <cseconttitlediv>What did I Do</cseconttitlediv>
             <ccontentdiv>
-              <li>localstorage로 새로고침시 State값이 날라가는 문제 해결</li>
-              <li>SCSS문법을 도입해서 CSS를 개편하여 컴포넌트 양을 줄임</li>
-              <li>마이 페이지/ 게시글/footer UI제작 및 개편</li>
+              <ul>
+                <li>
+                  localStorage를 이용하여 새로고침 시에도 상태 값이 유지되도록
+                  문제를 해결했습니다. 이를 통해 사용자가 새로고침을 해도 이전에
+                  입력한 데이터나 설정 값 등이 유지되어 불편함이 줄어들었습니다.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  SCSS 문법을 도입하여 CSS를 개편하였고, 이를 통해 컴포넌트의
+                  양을 줄일 수 있었습니다.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  마이 페이지, 게시글 페이지, 그리고 footer의 UI를 제작하고
+                  개편하였습니다.
+                </li>
+              </ul>
             </ccontentdiv>
             <cseconttitlediv>Tech Stack</cseconttitlediv>
-            <ccontentdiv>React, Redux, Styled Component, Axios</ccontentdiv>
+            <ccontentdiv>
+              <img
+                src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"
+                alt="d"
+              />
+              <img
+                src="https://img.shields.io/badge/React Router-CA4245C?style=for-the-badge&logo=React Router&logoColor=black"
+                alt="d"
+              />
+              <br />
+              <img
+                src="https://img.shields.io/badge/styled components-DB7093?style=for-the-badge&logo=styled-components&logoColor=black"
+                alt="d"
+              />
+
+              <br />
+              <img
+                src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=black"
+                alt="d"
+              />
+            </ccontentdiv>
           </cdiv>
         </contenttitlediv>
         <hr />
@@ -351,7 +543,7 @@ const Appdiv = styled.div`
     font-weight: bolder;
     margin: 5% 0% 5% 0px;
     a {
-      margin: 0% 3% 0% 3%;
+      margin: 3% 3% 0% 3%;
       color: gray;
     }
     trdiv {
@@ -377,21 +569,31 @@ const Appdiv = styled.div`
       }
       csectitlediv {
         font-size: 1.5rem;
+        margin-bottom: 2%;
       }
       cseconttitlediv {
         font-size: 1.3rem;
-        margin-top: 3%;
+        color: #ff9a9e;
+        /* margin-top: 2%; */
       }
       ccontentdiv {
-        margin-top: 1%;
-        font-size: 0.8rem;
+        margin: 0% 0% 3% 0%;
+        img {
+          margin: 2% 1% 0% 1%;
+        }
         ul {
-          display: flex;
-          flex-direction: row;
-          margin: 3% 0% 3% 0%;
           li {
             list-style-position: inside;
+            font-size: 0.8rem;
           }
+        }
+      }
+      ul {
+        margin: 0% 0% 3% 0%;
+        li {
+          list-style-position: inside;
+          margin: 0px 0% 3% 0%;
+          font-size: 1.3rem;
         }
       }
     }
@@ -400,12 +602,16 @@ const Appdiv = styled.div`
     width: 75%;
     display: flex;
     flex-direction: column;
+    display: inline;
     margin: 2% 0% 5% 0px;
     font-size: 1.2rem;
     font-weight: 600;
+    a {
+      font-size: 1.2rem;
+      color: gray;
+    }
   }
   hr {
-    margin: 5% 0px;
     width: 80%;
     height: 3px;
     background-color: pink;
@@ -432,9 +638,9 @@ const Intorducediv = styled.div`
   margin: 5% 0% 5% 0%;
   introdiv {
     width: 60%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     stdiv {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
   namedesdiv {

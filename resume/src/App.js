@@ -9,7 +9,7 @@ function App() {
       <Appdiv>
         <hellodiv>
           반갑습니다, <br />
-          저는 <stdiv>장경욱</stdiv>입니다.
+          개발자 <stdiv>장경욱</stdiv>입니다.
         </hellodiv>
 
         <contentdiv>
@@ -22,6 +22,16 @@ function App() {
             </introdiv>
 
             <namedesdiv>
+              <namediv>Email</namediv>
+              <descriptiondiv>
+                <a
+                  href="mailto:jku2659@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  jku2659@gmail.com
+                </a>
+              </descriptiondiv>
               <namediv>Github</namediv>
               <descriptiondiv>
                 <a
@@ -185,7 +195,7 @@ function App() {
           </cdiv>
         </contenttitlediv>
 
-        <hr />
+        <hr1 />
         <titlediv>PROJECT</titlediv>
         <contenttitlediv>
           <trdiv>2023.2.13 ~ </trdiv>
@@ -384,6 +394,7 @@ function App() {
             </ccontentdiv>
           </cdiv>
         </contenttitlediv>
+        <hr2 />
         <contenttitlediv>
           <trdiv>2022.12.15 ~ 2023.01.02</trdiv>
           <cdiv>
@@ -513,7 +524,7 @@ const Appdiv = styled.div`
   align-items: center;
   hellodiv {
     font-weight: bolder;
-    font-size: 6rem;
+    font-size: 5rem;
     stdiv {
       font-size: 6rem;
       font-weight: lighter;
@@ -533,7 +544,7 @@ const Appdiv = styled.div`
     background-color: #ff9a9e;
     color: white;
     border-radius: 15px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bolder;
   }
   contenttitlediv {
@@ -604,7 +615,7 @@ const Appdiv = styled.div`
     flex-direction: column;
     display: inline;
     margin: 2% 0% 5% 0px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     a {
       font-size: 1.2rem;
@@ -616,6 +627,16 @@ const Appdiv = styled.div`
     height: 3px;
     background-color: pink;
     border: none;
+  }
+  hr1 {
+    width: 80%;
+    height: 3px;
+    margin: 8% 0% 8% 0px;
+    background-color: pink;
+    border: none;
+  }
+  hr2 {
+    margin: 8% 0% 8% 0px;
   }
 `;
 

@@ -7,107 +7,69 @@ function App() {
       <GlobalStyle />
       <Headdiv />
       <Appdiv>
-        <hellodiv>
-          반갑습니다, <br />
-          개발자 <stdiv>장경욱</stdiv>입니다.
-        </hellodiv>
-
-        <contentdiv>
-          <Intorducediv>
-            <introdiv>
+        <Intorducediv>
+          {/* <introdiv>
               성공적인 결과물을 만들기 위해서는 <stdiv>비즈니스의</stdiv> 미래
               가치를 고려해야 합니다. 고객의 요구사항을 충족시키기 위해 받은
               피드백을 모두 기록하는 것은 주니어 개발자인 저,
               <stdiv>장경욱</stdiv>의 습관입니다.
-            </introdiv>
+            </introdiv> */}
+          <hellodiv>
+            프론트엔드 개발자 <stdiv>장경욱</stdiv>입니다.
+          </hellodiv>
 
-            <namedesdiv>
-              <namediv>Email</namediv>
-              <descriptiondiv>
-                <a
-                  href="mailto:jku2659@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  jku2659@gmail.com
-                </a>
-              </descriptiondiv>
-              <namediv>Github</namediv>
-              <descriptiondiv>
-                <a
-                  href="https://github.com/samsamgo"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  github.com/samsamgo
-                </a>
-              </descriptiondiv>
-              <namediv>Blog</namediv>
-              <descriptiondiv>
-                <a
-                  href="https://samsamgoo.tistory.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  samsamgoo.tistory.com
-                </a>
-              </descriptiondiv>
-            </namedesdiv>
-          </Intorducediv>
-        </contentdiv>
+          <namedesdiv>
+            <namediv>Email</namediv>
+            <descriptiondiv>
+              <a
+                href="mailto:jku2659@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                jku2659@gmail.com
+              </a>
+            </descriptiondiv>
+            <namediv>Github</namediv>
+            <descriptiondiv>
+              <a
+                href="https://github.com/samsamgo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                github.com/samsamgo
+              </a>
+            </descriptiondiv>
+            <namediv>Blog</namediv>
+            <descriptiondiv>
+              <a
+                href="https://samsamgoo.tistory.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                samsamgoo.tistory.com
+              </a>
+            </descriptiondiv>
+          </namedesdiv>
+        </Intorducediv>
         <hr />
         <titlediv>INTRODUCTION</titlediv>
-        <secondtitlediv>
-          똥인지 된장인지 '한 번은' 찍어보는 개발자
-        </secondtitlediv>
         <contentdiv>
-          편견에 사로잡혀 섣불리 판단하지 않습니다.
-          <br />
-          '원래 그렇게 한다'라는 말은 통하지 않습니다.
-          <br />
-          기초적인 부분도 객관적이고 타당한 근거가 나올 때까지 조사하여 정리하여
-          블로그에 남긴 후 이해하기 위해 노력합니다.
-          <br />
-          <br />
-          실제로 Redux에 관한{" "}
-          <a
-            href="https://samsamgoo.tistory.com/98"
-            target="_blank"
-            rel="noreferrer"
-          >
-            글
-          </a>
-          을 완성하기까지 이주일 정도에 시간이 걸렸습니다.
-          <br />
-          이제는 Redux를 사용하여 애플리케이션의 상태를 효과적으로 관리할 수
-          있으며, 이를 통해 코드 유지 보수성과 확장성을 향상시킬 수 있습니다.
-        </contentdiv>
-        <secondtitlediv>모르는 것은 알 때까지 묻는 개발자.</secondtitlediv>
-        <contentdiv>
-          모른다는 것에 부끄러움을 느끼지 않습니다.
-          <br />
-          모든 새로운 것은 '질문'에서 시작됩니다.
-          <br />
-          선배이든 후배이든 모르는 것이 확실하게 전달되어 내 머릿속에 정리될
-          때까지 질문하고 이해한 내용을 확인하기 위해 재차 질문합니다.
-          <br />
-          <br />
-          비대면 플랫폼을 통한 소통도 저에게 익숙하고, 필요에 따라 블로그
-          댓글에도 많이 참여하여 피드백을 주고 받는 것을 좋아합니다.
-        </contentdiv>
-        <secondtitlediv>
-          서로 협력하는 작은 팀이 세상을 바꿀 수 있다는 것을 믿어 의심치 않는
-          개발자
-        </secondtitlediv>
-        <contentdiv>
-          개발자에게 있어 가장 중요한 역량은 협업이라고 생각합니다.
-          <br />
-          만약 비효율적인 프로세스가 협력을 방해한다면 개인적인 일보다
-          최우선으로 이 점을 해결해야 한다고 생각합니다.
-          <br />
-          <br />
-          팀의 문제가 발생하면 그 즉시 모든 팀원과 모든 내용을 공유하고 빠른
-          시간에 개선점을 찾기 위해 노력합니다.
+          ARM 프로세서를 이용해 2년 이상의 개발 경험을 있습니다. 하드웨어와
+          소프트웨어 개발을하면서 항상 사용자에게 <stdiv>직관적</stdiv>이고{" "}
+          <stdiv>예쁜 디자인</stdiv>을 제공하기 위해 고민했습니다. 그리고 퇴직
+          후에는 24주 동안 코드스테이츠 소프트웨어 개발자{" "}
+          <stdiv>부트캠프</stdiv>를 수료하면서 프론트엔드에 대한 기술과 지식을
+          배웠습니다.
+          <br /> <br />
+          <stdiv>Redux</stdiv>를 사용하여 프로젝트에서 상태 관리를 처리한 경험을
+          토대로 애플리케이션의 상태를 효과적으로 관리할 수 있습니다. 이외에도
+          React와 다양한 라이브러리에 관심이 많아 <stdiv>지속적으로 학습</stdiv>
+          하고 있습니다. 또한, 제가 학습한 내용을 <stdiv>블로그</stdiv>에
+          정리하여 기술 블로그를 운영하고 있습니다.
+          <br /> <br />
+          현재는 GraphQL과 MongoDB를 공부하며 <stdiv>백엔드 개발</stdiv>에도
+          관심을 가지고 있습니다. 프론트엔드 뿐만 아니라 백엔드와 관련된 기술도
+          학습하며 자신의 역량을 계속해서 발전시켜 나가고 있습니다.
         </contentdiv>
         <hr />
         <titlediv>STUDY</titlediv>
@@ -118,15 +80,23 @@ function App() {
             <ccontentdiv>
               <ul>
                 <li>
-                  보고 듣는 그 순간 모든 것을 기억하기란 불가능에 가까습니다.
-                  그렇기에 매 순간순간 보고 들은 내용을 정리하기 위해 블로그를
-                  작성하고 있습니다.
+                  개발을 시작한 후로 기술 블로그를 운영하여 회고를 포함{" "}
+                  <stdiv>170개</stdiv>
+                  이상 포스팅했습니다.
                 </li>
               </ul>
               <ul>
                 <li>
-                  공부했던 내용과, 그날 하루를 회고하는 블로그를 꾸준히 작성하고
-                  있습니다.
+                  블로그를 작성하면서 매 순간 내용을 정리하고 정리된 내용을
+                  참고하여 나중에 다시 찾아볼 수 있어 <stdiv>효율적으로</stdiv>{" "}
+                  시간을 활용할 수 있습니다.
+                </li>
+              </ul>
+
+              <ul>
+                <li>
+                  또한, 자신의 생각과 경험을 정리하여 기록하면서{" "}
+                  <stdiv>스스로</stdiv> 발전하는 계기가 되기도 합니다.
                   <ul>
                     <a
                       href="https://samsamgoo.tistory.com/"
@@ -141,6 +111,46 @@ function App() {
             </ccontentdiv>
           </cdiv>
         </contenttitlediv>
+        <hr />
+        <titlediv>EDUCATION</titlediv>
+        <contenttitlediv>
+          <trdiv>2022.8.19 ~ 2023.2.10</trdiv>
+          <cdiv>
+            <csectitlediv>코드스테이츠 (Code States)</csectitlediv>
+            <ccontentdiv>
+              <ul>
+                <li>
+                  <stdiv>컴포넌트 기반 설계, 가상 돔, 상태 관리</stdiv> 등을
+                  학습하였고 React와 다양한 라이브러리들을 적용하여 프로젝트를
+                  제작하였습니다.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  팀 프로젝트에서는 팀원들과 함께{" "}
+                  <stdiv>기획부터 배포까지</stdiv> 모든 단계를 협업하여
+                  프로젝트를 성공적으로 마무리한 경험이 있습니다.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <stdiv>노션페이지와 깃허브</stdiv>를 이용하여 팀워크를
+                  강화하고 역할 분담과 일정 관리를 효과적으로 수행할 수
+                  있습니다.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  프로젝트 경험을 통해 <stdiv>백엔드와의 소통</stdiv> 방법을
+                  익숙하고, Rest API를 이용한 <stdiv>서버 API 통신</stdiv>에
+                  능숙합니다. 이를 기반으로 프론트엔드와 백엔드 간의 데이터
+                  흐름을 원활하게 구축할 수 있습니다.
+                </li>
+              </ul>
+            </ccontentdiv>
+          </cdiv>
+        </contenttitlediv>
+
         <hr />
 
         <titlediv>SKILL</titlediv>
@@ -195,7 +205,7 @@ function App() {
           </cdiv>
         </contenttitlediv>
 
-        <hr1 />
+        <hr />
         <titlediv>PROJECT</titlediv>
         <contenttitlediv>
           <trdiv>2023.2.13 ~ </trdiv>
@@ -204,29 +214,29 @@ function App() {
             <cseconttitlediv>Description</cseconttitlediv>
             <ccontentdiv>
               이력서 내용을 바탕으로 만드는 Profile(제작중....)
+              <ul>
+                🔗(
+                <a
+                  href="https://samsamgo.netlify.app/"
+                  title="Profile 배포 링크"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  배포링크
+                </a>
+                |
+                <a
+                  href="https://github.com/samsamgo/Profile"
+                  title="Profile 레파지토리"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
+                </a>
+                )
+              </ul>
             </ccontentdiv>
 
-            <ccontentdiv>
-              🔗(
-              <a
-                href="https://samsamgo.netlify.app/"
-                title="Profile 배포 링크"
-                target="_blank"
-                rel="noreferrer"
-              >
-                배포링크
-              </a>
-              |
-              <a
-                href="https://github.com/samsamgo/Profile"
-                title="Profile 레파지토리"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Repository
-              </a>
-              )
-            </ccontentdiv>
             <cseconttitlediv>What did I Do</cseconttitlediv>
             <ccontentdiv>
               <ul>
@@ -285,47 +295,47 @@ function App() {
             <ccontentdiv>
               주변의 사람들과 함께 운동할 수 있는 웹으로 위치를 기반으로 근처의
               모임 장소를 지도로 나타낼 수 있는 웹
+              <ul>
+                🔗(
+                <a
+                  href="http://d2zj5lc7bk5ajt.cloudfront.net/"
+                  title="프로젝트 배포 링크"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  배포링크
+                </a>
+                |
+                <a
+                  href="https://github.com/codestates-seb/seb41_main_031"
+                  title="프로젝트 레파지토리"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
+                </a>
+                |
+                <a
+                  href="https://www.notion.so/codestates/f8ea3a2e92914268bc743c5cfbee6bab?pvs=4"
+                  title="프로젝트 기획서"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  기획서
+                </a>
+                |
+                <a
+                  href="https://samsamgoo.tistory.com/167"
+                  title="프로젝트 회고 블로깅"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  후기
+                </a>
+                )
+              </ul>
             </ccontentdiv>
 
-            <ccontentdiv>
-              🔗(
-              <a
-                href="http://d2zj5lc7bk5ajt.cloudfront.net/"
-                title="프로젝트 배포 링크"
-                target="_blank"
-                rel="noreferrer"
-              >
-                배포링크
-              </a>
-              |
-              <a
-                href="https://github.com/codestates-seb/seb41_main_031"
-                title="프로젝트 레파지토리"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Repository
-              </a>
-              |
-              <a
-                href="https://www.notion.so/codestates/f8ea3a2e92914268bc743c5cfbee6bab?pvs=4"
-                title="프로젝트 기획서"
-                target="_blank"
-                rel="noreferrer"
-              >
-                기획서
-              </a>
-              |
-              <a
-                href="https://samsamgoo.tistory.com/167"
-                title="프로젝트 회고 블로깅"
-                target="_blank"
-                rel="noreferrer"
-              >
-                후기
-              </a>
-              )
-            </ccontentdiv>
             <cseconttitlediv>What did I Do</cseconttitlediv>
             <ccontentdiv>
               <ul>
@@ -394,51 +404,54 @@ function App() {
             </ccontentdiv>
           </cdiv>
         </contenttitlediv>
-        <hr2 />
+
         <contenttitlediv>
           <trdiv>2022.12.15 ~ 2023.01.02</trdiv>
           <cdiv>
             <csectitlediv>Stack overflow</csectitlediv>
             <cseconttitlediv>Description</cseconttitlediv>
-            <ccontentdiv>Stack overflow 클론코딩</ccontentdiv>
             <ccontentdiv>
-              🔗(
-              <a
-                href="http://3.38.108.219:3000/"
-                title="프리 프로젝트 배포 링크"
-                target="_blank"
-                rel="noreferrer"
-              >
-                배포링크
-              </a>
-              |
-              <a
-                href="https://github.com/codestates-seb/seb41_pre_002"
-                title="프리 프로젝트 레파지토리"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Repository
-              </a>
-              |
-              <a
-                href="https://www.notion.so/codestates/2-71cc536afabc4960b70414acd74213ea?pvs=4"
-                title="프리 프로젝트 기획서"
-                target="_blank"
-                rel="noreferrer"
-              >
-                기획서
-              </a>
-              |
-              <a
-                href="https://samsamgoo.tistory.com/151"
-                title="프리 프로젝트 회고 블로깅"
-                target="_blank"
-                rel="noreferrer"
-              >
-                후기
-              </a>
-              )
+              Stack overflow 클론코딩
+              <ul>
+                {" "}
+                🔗(
+                <a
+                  href="http://3.38.108.219:3000/"
+                  title="프리 프로젝트 배포 링크"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  배포링크
+                </a>
+                |
+                <a
+                  href="https://github.com/codestates-seb/seb41_pre_002"
+                  title="프리 프로젝트 레파지토리"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
+                </a>
+                |
+                <a
+                  href="https://www.notion.so/codestates/2-71cc536afabc4960b70414acd74213ea?pvs=4"
+                  title="프리 프로젝트 기획서"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  기획서
+                </a>
+                |
+                <a
+                  href="https://samsamgoo.tistory.com/151"
+                  title="프리 프로젝트 회고 블로깅"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  후기
+                </a>
+                )
+              </ul>
             </ccontentdiv>
             <cseconttitlediv>What did I Do</cseconttitlediv>
             <ccontentdiv>
@@ -477,8 +490,6 @@ function App() {
                 src="https://img.shields.io/badge/styled components-DB7093?style=for-the-badge&logo=styled-components&logoColor=black"
                 alt="d"
               />
-
-              <br />
               <img
                 src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=black"
                 alt="d"
@@ -486,28 +497,73 @@ function App() {
             </ccontentdiv>
           </cdiv>
         </contenttitlediv>
-        <hr />
-        <titlediv>EDUCATION</titlediv>
-        <contenttitlediv>
-          <trdiv>2022.8.19 ~ 2023.2.10</trdiv>
-          <cdiv>
-            <csectitlediv>코드스테이츠 (Code States)</csectitlediv>
-            <ccontentdiv>
-              <ul>
-                <li>React를 사용한 웹 개발 학습</li>
-              </ul>
-              <ul>
-                <li>파트너와 함께 실습 진행(페어 프로그래밍)</li>
-              </ul>
-              <ul>
-                <li>20주 동안 매일 알고리즘 문제 풀이</li>
-              </ul>
-              <ul>
-                <li>협업 프로젝트 2회 진행</li>
-              </ul>
-            </ccontentdiv>
-          </cdiv>
-        </contenttitlediv>
+        {/* <hr />
+        <titlediv>WHY STANDBY?</titlediv>
+        <contentdiv>
+          <contenttitlediv>
+            <c1div>
+              <cseconttitlediv>
+                1. 혁신적인 서비스를 개발하는 회사
+              </cseconttitlediv>
+              <ccontentdiv>
+                <ul>
+                  <li>
+                    스탠바이랩은 법률 서비스에 IT 기술을 접목해 사용자가 쉽고
+                    편리하게 법률 서비스를 이용할 수 있도록 해주는 혁신적인
+                    스타트업입니다. 이러한 혁신적인 서비스를 개발하는 회사에서
+                    일하면서 새로운 아이디어를 제안하고 창의적인 문제 해결
+                    능력을 발휘하며 성장하고 싶어 지원했습니다.
+                  </li>
+                </ul>
+              </ccontentdiv>
+              <cseconttitlediv>2.성장 가능성과 도전적인 회사</cseconttitlediv>
+              <ccontentdiv>
+                <ul>
+                  <li>
+                    저는 스탠바이랩이 최근에 런칭한 '스탠바이'라는 새로운
+                    법인관리 서비스와 기존 서비스를 보완하는 노력에 대해 높은
+                    관심과 열정을 가지고 있습니다. 스타트업의 도전적인 분위기와
+                    함께, 스탠바이랩이 가진 경영 철학과 비즈니스 모델에
+                    공감합니다. 이를 바탕으로 회사의 미래가치를 신뢰하며, 함께
+                    도전적인 환경에서 성장할 수 있는 기회를 원합니다. 저의
+                    역량과 열정을 바탕으로 함께 노력해 성장해나가고 싶어
+                    지원하게 되었습니다.
+                  </li>
+                </ul>
+              </ccontentdiv>
+              <cseconttitlediv>
+                3. 누구나 쉽게 법의 도움을 받을 수 있는 세상
+              </cseconttitlediv>
+              <ccontentdiv>
+                <ul>
+                  <li>
+                    스탠바이랩은 '누구나 쉽게 법의 도움을 받을 수 있는 세상'을
+                    꿈꾸는 회사입니다. 법률 서비스에 IT 기술을 적용해 사용자
+                    경험을 개선하고 서비스 가격을 낮추어 보다 많은 사람들이 법률
+                    서비스를 이용할 수 있도록 노력하고 있습니다. 저는 이러한
+                    목표와 가치관에 공감하며, 제가 가진 경험과 역량을 바탕으로
+                    스탠바이랩의 성장과 목표를 이루는데 기여하고자 지원하게
+                    되었습니다.
+                  </li>
+                </ul>
+              </ccontentdiv>
+              <cseconttitlediv>4. 지원 동기와 핵심 가치 부합성</cseconttitlediv>
+              <ccontentdiv>
+                <ul>
+                  <li>
+                    스탠바이랩은 핵심가치로 주인의식을 중요시하며, 팀원 모두가
+                    하나의 팀으로서 함께 일하는 문화를 강조합니다. 이러한 문화가
+                    참신하고 독특한 아이디어를 창출하며, 도전적인 환경에서
+                    성장할 수 있는 기반을 마련할 수 있다고 생각합니다. 그리고
+                    이러한 가치와 문화를 가진 스탠바이랩에서 함께 일하게 되어,
+                    저의 능력과 열정을 쏟아내며 성장하는 경험을 쌓고자 지원하게
+                    되었습니다.
+                  </li>
+                </ul>
+              </ccontentdiv>
+            </c1div>
+          </contenttitlediv>
+        </contentdiv> */}
       </Appdiv>
     </>
   );
@@ -518,58 +574,99 @@ export default App;
 const Appdiv = styled.div`
   width: 100%;
   height: auto;
-  padding: 40px 40px;
+  padding: 40px 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  hellodiv {
-    font-weight: bolder;
-    font-size: 5rem;
-    stdiv {
-      font-size: 6rem;
-      font-weight: lighter;
-      color: #ff9a9e;
-    }
-  }
   titlediv {
-    width: 400px;
-    font-size: 2.5rem;
+    font-size: 1.3rem;
     font-weight: bolder;
-    text-align: LEFT;
-    margin: 5% 40% 5% 0px;
+    margin-right: auto;
+    margin-bottom: 4%;
   }
+  mycontentdiv {
+    width: 100%;
+    padding: 0px 15%;
+    margin: 2% 0% 5% 0px;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
   secondtitlediv {
     width: 80%;
     padding: 2% 5%;
     background-color: #ff9a9e;
     color: white;
     border-radius: 15px;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: bolder;
   }
   contenttitlediv {
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     font-weight: bolder;
-    margin: 5% 0% 5% 0px;
+    margin: 3% 0% 0% 0px;
     a {
-      margin: 3% 3% 0% 3%;
+      margin: 0% 1% 0% 1%;
       color: gray;
     }
     trdiv {
-      width: 30%;
+      width: 20%;
       color: gray;
       text-align: right;
       margin: 0% 10% 0% 0px;
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
     tldiv {
       width: 20%;
       color: gray;
       text-align: left;
       margin: 0% 10% 0% 0px;
-      font-size: 1.5rem;
+      font-size: 1rem;
+    }
+    c1div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      ctitlediv {
+        font-size: 2.5rem;
+      }
+      csectitlediv {
+        font-size: 1rem;
+        margin-bottom: 1%;
+      }
+      cseconttitlediv {
+        font-size: 0.8rem;
+        color: #ff9a9e;
+        /* margin-top: 2%; */
+      }
+      ccontentdiv {
+        font-size: 0.7rem;
+        margin: 0% 0% 2% 0%;
+        img {
+          margin: 1% 1% 0% 1%;
+          width: auto;
+          height: 20px;
+        }
+        ul {
+          font-size: 0.7rem;
+          li {
+            list-style-position: inside;
+            font-size: 0.7rem;
+          }
+        }
+        a {
+          font-size: 0.7rem;
+        }
+      }
+      ul {
+        li {
+          list-style-position: inside;
+          margin: 0px 0% 2% 0%;
+          font-size: 0.7rem;
+        }
+      }
     }
     cdiv {
       width: 70%;
@@ -579,64 +676,77 @@ const Appdiv = styled.div`
         font-size: 2.5rem;
       }
       csectitlediv {
-        font-size: 1.5rem;
-        margin-bottom: 2%;
+        font-size: 1rem;
+        margin-bottom: 1%;
       }
       cseconttitlediv {
-        font-size: 1.3rem;
+        font-size: 0.8rem;
         color: #ff9a9e;
         /* margin-top: 2%; */
       }
       ccontentdiv {
-        margin: 0% 0% 3% 0%;
+        font-size: 0.7rem;
+        margin: 0% 0% 2% 0%;
         img {
-          margin: 2% 1% 0% 1%;
+          margin: 1% 1% 0% 1%;
+          width: auto;
+          height: 20px;
         }
         ul {
+          font-size: 0.7rem;
           li {
             list-style-position: inside;
-            font-size: 0.8rem;
+            font-size: 0.7rem;
           }
+        }
+        a {
+          font-size: 0.7rem;
         }
       }
       ul {
-        margin: 0% 0% 3% 0%;
         li {
           list-style-position: inside;
-          margin: 0px 0% 3% 0%;
-          font-size: 1.3rem;
+          margin: 0px 0% 2% 0%;
+          font-size: 0.7rem;
+          stdiv {
+            font-size: 1rem;
+            color: #ff9a9e;
+          }
         }
       }
     }
   }
   contentdiv {
-    width: 75%;
+    width: 100%;
+    padding: 0px 15%;
     display: flex;
     flex-direction: column;
     display: inline;
     margin: 2% 0% 5% 0px;
-    font-size: 1rem;
+    stdiv {
+      font-size: 1rem;
+      color: #ff9a9e;
+    }
+    font-size: 0.7rem;
     font-weight: 600;
     a {
-      font-size: 1.2rem;
+      font-size: 0.8rem;
       color: gray;
     }
   }
   hr {
-    width: 80%;
+    width: 100%;
     height: 3px;
+    margin: 4% 0% 4% 0px;
     background-color: pink;
     border: none;
   }
   hr1 {
-    width: 80%;
+    width: 100%;
     height: 3px;
-    margin: 8% 0% 8% 0px;
+    margin: 10% 0% 20% 0px;
     background-color: pink;
     border: none;
-  }
-  hr2 {
-    margin: 8% 0% 8% 0px;
   }
 `;
 
@@ -670,14 +780,34 @@ const Intorducediv = styled.div`
     margin-left: auto;
   }
   namediv {
-    font-size: 1.3rem;
+    margin-top: 5%;
+    font-size: 1rem;
     color: #ff9a9e;
   }
   descriptiondiv {
-    font-size: 0.7rem;
     a {
+      font-size: 0.7rem;
       color: gray;
       text-decoration: none;
+    }
+  }
+  hellodiv {
+    text-align: center;
+    font-weight: bolder;
+    background: linear-gradient(
+      to left,
+      #ff9a9e 0%,
+      #fecfef 99%,
+      #fecfef 100%
+    ) !important;
+    font-size: 2rem;
+    -webkit-background-clip: text !important;
+    color: transparent;
+    cursor: pointer;
+    stdiv {
+      color: #ff9a9e;
+      font-size: 2.5rem;
+      font-weight: lighter;
     }
   }
 `;

@@ -120,9 +120,9 @@ function App() {
             <ccontentdiv>
               <ul>
                 <li>
+                  <stdiv>React</stdiv>와 다양한 라이브러리를 활용하여{" "}
                   <stdiv>컴포넌트 기반 설계, 가상 돔, 상태 관리</stdiv> 등을
-                  학습하였고 React와 다양한 라이브러리들을 적용하여 프로젝트를
-                  제작하였습니다.
+                  학습하고 프로젝트에 적용하였습니다
                 </li>
               </ul>
               <ul>
@@ -141,10 +141,10 @@ function App() {
               </ul>
               <ul>
                 <li>
-                  프로젝트 경험을 통해 <stdiv>백엔드와의 소통</stdiv> 방법을
-                  익숙하고, Rest API를 이용한 <stdiv>서버 API 통신</stdiv>에
-                  능숙합니다. 이를 기반으로 프론트엔드와 백엔드 간의 데이터
-                  흐름을 원활하게 구축할 수 있습니다.
+                  백엔드와의 <stdiv>소통</stdiv> 방법을 익숙하며 Rest API를
+                  이용한 서버 <stdiv>API 통신</stdiv>에 능숙합니다. 이를
+                  바탕으로 프론트엔드와 백엔드 간의 데이터 흐름을 원활하게
+                  구축할 수 있습니다.
                 </li>
               </ul>
             </ccontentdiv>

@@ -54,24 +54,27 @@ function App() {
         <hr />
         <titlediv>INTRODUCTION</titlediv>
         <contentdiv>
-          ARM 프로세서를 이용해 2년 이상의 개발 경험이 있습니다.
+          저는 ARM 프로세서를 이용하여 2년 이상의 하드웨어와 소프트웨어 개발
+          경험을 쌓았습니다.
           <br />
-          하드웨어와 소프트웨어 개발을하면서 항상 사용자에게 직관적이고 함리적인
-          <stdiv>디자인</stdiv>을 제공하기 위해 고민했습니다. 퇴직 후에는 24주
-          동안 코드스테이츠 소프트웨어 개발자
-          <stdiv>부트캠프</stdiv>를 수료하면서 프론트엔드에 대한 기술과 지식을
-          배웠습니다.
-          <br /> <br />
-          <stdiv>Redux</stdiv>를 사용하여 프로젝트에서 상태 관리를 처리한 경험을
-          토대로 애플리케이션의 상태를 효과적으로 관리할 수 있습니다. 이외에도
-          React와 다양한 라이브러리에 관심이 많아 지속적으로 학습 하고 있습니다.{" "}
-          <br /> 또한, 제가 학습한 내용을 <stdiv>블로그</stdiv>에 정리하여 기술
-          블로그를 운영하고 있습니다.
-          <br /> <br />
-          현재는 GraphQL과 MongoDB를 공부하며 <stdiv>백엔드 개발</stdiv>에
-          관심을 가지고 공부하며 프로젝트를 프로젝트 리팩 토링을 준비하고
-          있습니다.
+          이러한 경험을 통해 소프트웨어를 설계하는 과정에서 항상{" "}
+          <stdiv>사용자 친화적</stdiv>이면서 효율적인 디자인의 필요성을 느끼게
+          되었습니다.
+          <br />
+          이에 퇴직 후 24주 동안 코드스테이츠 소프트웨어 개발자 부트캠프에서
+          프론트엔드 기술과 지식을 배웠습니다.
+          <br />
+          <br />
+          <stdiv>Redux</stdiv>를 사용하여 상태 관리를 처리한 경험을 토대로
+          애플리케이션의 상태를 효과적으로 관리할 수 있습니다.
+          <br /> 또한, 지속적으로 React와 다양한 라이브러리를 학습하며, 기술
+          블로그를 운영하여 내용을 정리하고 있습니다.
+          <br />
+          <br />
+          현재는 GraphQL과 MongoDB를 공부하며 <stdiv>백엔드 개발</stdiv>에도
+          관심을 가지고 있습니다. 프로젝트 리팩토링을 준비하고 있습니다.
         </contentdiv>
+
         <hr />
         <titlediv>STUDY</titlediv>
         <contenttitlediv>
@@ -81,23 +84,21 @@ function App() {
             <ccontentdiv>
               <ul>
                 <li>
-                  개발을 시작한 후로 기술 블로그를 운영하여 회고를 포함{" "}
-                  <stdiv>170개</stdiv>
-                  이상 포스팅했습니다.
+                  블로그를 통해 회고를 포함한 170개 이상의 포스팅을 작성하여,
+                  개발 경험을 <stdiv>기록</stdiv>하고 공유하였습니다.
                 </li>
               </ul>
               <ul>
                 <li>
-                  블로그를 작성하면서 매 순간 내용을 정리하고 정리된 내용을
-                  참고하여 나중에 다시 찾아볼 수 있어 <stdiv>효율적으로</stdiv>{" "}
-                  시간을 활용할 수 있습니다.
+                  매 순간 내용을 정리하고 정리된 내용을 참고하여 나중에 다시
+                  찾아볼 수 있어 효율적으로 시간을 활용할 수 있었습니다.
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  또한, 자신의 생각과 경험을 정리하여 기록하면서{" "}
-                  <stdiv>스스로</stdiv> 발전하는 계기가 되기도 합니다.
+                  자신의 생각과 경험을 정리하여 <stdiv>기록</stdiv>하면서 스스로
+                  발전하는 계기가 되었습니다.
                   <ul>
                     <a
                       href="https://samsamgoo.tistory.com/"
@@ -121,31 +122,28 @@ function App() {
             <ccontentdiv>
               <ul>
                 <li>
-                  <stdiv>React</stdiv>와 다양한 라이브러리를 활용하여 컴포넌트
-                  기반 설계, 가상 돔, 상태 관리 등을 학습하고 프로젝트에
-                  적용하였습니다
+                  React와 다양한 라이브러리를 활용하여 컴포넌트 기반 설계, 가상
+                  돔, 상태 관리 등을 학습하고 프로젝트에 적용
                 </li>
               </ul>
               <ul>
                 <li>
-                  팀 프로젝트에서는 팀원들과 함께{" "}
-                  <stdiv>기획부터 배포까지</stdiv> 모든 단계를 협업하여
-                  프로젝트를 성공적으로 마무리한 경험이 있습니다.
+                  팀 프로젝트에서는 팀원들과 함께 기획부터 배포까지 모든 과정을
+                  <stdiv>협업</stdiv>하여 프로젝트를 성공적으로 마무리, Notion
+                  페이지와 GitHub를 이용하여 팀워크를 강화하고 역할 분담 및 일정
+                  관리를 수행
                 </li>
               </ul>
               <ul>
                 <li>
-                  <stdiv>노션페이지와 깃허브</stdiv>를 이용하여 팀워크를
-                  강화하고 역할 분담과 일정 관리를 효과적으로 수행할 수
-                  있습니다.
+                  백엔드와의 소통 방법에 익숙하여 <stdiv>Rest API</stdiv>를
+                  이용한 서버 API 통신에 능숙
                 </li>
               </ul>
               <ul>
                 <li>
-                  백엔드와의 소통 방법에 익숙하며 Rest API를 이용한 서버{" "}
-                  <stdiv>API 통신</stdiv>에 능숙합니다. 이를 바탕으로
-                  프론트엔드와 백엔드 간의 데이터 흐름을 원활하게 구축할 수
-                  있습니다.
+                  프론트엔드와 백엔드 간의 데이터 흐름을 원활하게 구축할 수 있는
+                  경험 보유
                 </li>
               </ul>
             </ccontentdiv>
@@ -209,7 +207,7 @@ function App() {
         <hr />
         <titlediv>PROJECT</titlediv>
         <contenttitlediv>
-          <trdiv>2023.2.13 ~ </trdiv>
+          <trdiv>2023.3.13 ~ </trdiv>
           <cdiv>
             <csectitlediv>Samsamgo's Profile</csectitlediv>
             <cseconttitlediv>Description</cseconttitlediv>
@@ -218,7 +216,7 @@ function App() {
               <ul>
                 🔗(
                 <a
-                  href="https://samsamgo.netlify.app/"
+                  href="https://samprofile2.netlify.app/"
                   title="Profile 배포 링크"
                   target="_blank"
                   rel="noreferrer"
@@ -227,7 +225,7 @@ function App() {
                 </a>
                 |
                 <a
-                  href="https://github.com/samsamgo/Profile"
+                  href="https://github.com/samsamgo/profile_v2"
                   title="Profile 레파지토리"
                   target="_blank"
                   rel="noreferrer"
@@ -242,14 +240,15 @@ function App() {
             <ccontentdiv>
               <ul>
                 <li>
-                  랜덤 함수를 이용하여 일정한 시간 간격으로 배경 이미지가
-                  변경되도록 구현하였습니다.
+                  웹사이트에 네비게이션 메뉴를 추가하여 각 메뉴를 클릭하면 해당
+                  섹션으로 부드럽게 스크롤 이동하는 기능을 구현하였습니다.
                 </li>
               </ul>
               <ul>
                 <li>
-                  유튜브에서 영상을 가져와 로딩했을 때, 해당 영상에 대한 음악이
-                  바로 재생되도록 구현하였습니다.
+                  "@nivo/pie" 라이브러리를 이용하여, 데이터 시각화를 위한 원형
+                  차트를 구현하였습니다. 이를 통해, 데이터를 시각화하여 사용자가
+                  한눈에 파악할 수 있도록 하였습니다.
                 </li>
               </ul>
               <ul>
@@ -277,12 +276,6 @@ function App() {
               />
               <img
                 src="https://img.shields.io/badge/styled components-DB7093?style=for-the-badge&logo=styled-components&logoColor=black"
-                alt="d"
-              />
-              <br />
-
-              <img
-                src="https://img.shields.io/badge/YouTube Data Api-FF0000?style=for-the-badge&logo=YouTube&logoColor=black"
                 alt="d"
               />
             </ccontentdiv>
@@ -719,11 +712,11 @@ const Appdiv = styled.div`
   }
   contentdiv {
     width: 100%;
-    padding: 0px 15%;
+    padding: 0px 5%;
     display: flex;
     flex-direction: column;
     display: inline;
-    margin: 2% 0% 5% 0px;
+    margin: 0% 0% 5% 0px;
     stdiv {
       font-size: 1rem;
       color: #ff9a9e;
